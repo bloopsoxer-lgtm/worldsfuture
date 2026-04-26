@@ -195,7 +195,7 @@ function buildCountryGeometry(rings) {
 }
 
 const css = getComputedStyle(document.documentElement);
-const bone = new THREE.Color(css.getPropertyValue('--bone').trim() || '#e0ddcf');
+const bone = new THREE.Color('#cec9b1');
 const depth = parseFloat(css.getPropertyValue('--globe-depth')) || 0.24;
 
 const countryMatFront = new THREE.MeshBasicMaterial({
