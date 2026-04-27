@@ -667,7 +667,7 @@ a {
         gap: 0.6rem;
     }
 
-    .banner-text .buttons a {
+    .banner-text .buttons button {
         min-width: min(100%, 155px);
     }
 
